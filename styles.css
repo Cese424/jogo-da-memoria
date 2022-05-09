@@ -4,22 +4,22 @@ body {
     font-family: sans-serif;
 }
 
-.tentativas{
+.tentativas {
     font-size: 30px;
 }
 
-.title{
+.title {
     font-size: 100px;
     margin: 0;
 }
 
-.winner{
+.winner {
     position: relative;
     top: 32vh;
     height: 100px;
 }
 
-.lost{
+.lost {
     position: relative;
     top: 15vh;
     font-size: 100px;
@@ -27,7 +27,7 @@ body {
     padding: 0;
 }
 
-.game-button{
+.game-button {
     border: 2px solid black;
     width: 200px;
     height: 200px;
@@ -35,7 +35,7 @@ body {
     margin-left: 5px;
 }
 
-.refresh{
+.refresh {
     position: relative;
     bottom: 25vh;
     background-color: green;
@@ -46,7 +46,7 @@ body {
     border-radius: 7px;
 }
 
-.game{
+.game {
     margin: 20px;
     font-size: 0px;
     position: relative;

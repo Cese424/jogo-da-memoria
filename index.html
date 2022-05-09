@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<!--Game made by Alexandre ;)-->
 
 <head>
     <meta charset="utf-8">
@@ -9,14 +10,19 @@
 
 <body>
 
+    <!--Titulo-->
     <h1 class="title">Jogo da memória</h1>
 
+    <!--Mensagens de vitória e derrota-->
     <img src="img/winnertxt.gif" id="winner" class="winner">
     <h2 class="lost" id="lost">Você perdeu :(</h2>
 
-    <div id="game-box" class="game"> 
+    <!--Div do jogo, o jogo inteiro está aqui-->
+    <div id="game-box" class="game">
+        <!--Contador de tentativas restantes (se chegar em 0 você perde)-->
         <h1 class="tentativas">Tentativas restantes: <span id="n_rodadas">10</span></h1>
 
+        <!--Grupos de botões com separação de linha-->
         <button class="game-button" id="b1" onclick="game(1)"></button>
         <button class="game-button" id="b2" onclick="game(2)"></button>
         <button class="game-button" id="b3" onclick="game(3)"></button>
@@ -37,6 +43,7 @@
         <button class="game-button" id="b0" onclick="game(0)"></button>
     </div>
 
+    <!--Botão para recarregar a pagina e reiniciar o jogo-->
     <button class="refresh" onclick="history.go(0)">restart</button>
 
     <script src="index.js"></script>

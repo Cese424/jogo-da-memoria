@@ -1,3 +1,5 @@
+// Made by Alexandre ;)
+
 //onload basic things
 document.getElementById("winner").style.visibility = "hidden"
 document.getElementById("lost").style.visibility = "hidden"
