@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Jogo da memória</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1 class="title">Jogo da memória</h1>
+
+    <img src="img/winnertxt.gif" id="winner" class="winner">
+    <h2 class="lost" id="lost">Você perdeu :(</h2>
+
+    <div id="game-box" class="game"> 
+        <h1 class="tentativas">Tentativas restantes: <span id="n_rodadas">10</span></h1>
+
+        <button class="game-button" id="b1" onclick="game(1)"></button>
+        <button class="game-button" id="b2" onclick="game(2)"></button>
+        <button class="game-button" id="b3" onclick="game(3)"></button>
+        <button class="game-button" id="b4" onclick="game(4)"></button>
+
+        <br>
+
+        <button class="game-button" id="b5" onclick="game(5)"></button>
+        <button class="game-button" id="b6" onclick="game(6)"></button>
+        <button class="game-button" id="b7" onclick="game(7)"></button>
+        <button class="game-button" id="b8" onclick="game(8)"></button>
+
+        <br>
+
+        <button class="game-button" id="b9" onclick="game(9)"></button>
+        <button class="game-button" id="b10" onclick="game(10)"></button>
+        <button class="game-button" id="b11" onclick="game(11)"></button>
+        <button class="game-button" id="b0" onclick="game(0)"></button>
+    </div>
+
+    <button class="refresh" onclick="history.go(0)">restart</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
