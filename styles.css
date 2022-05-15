@@ -2,10 +2,13 @@ body {
     text-align: center;
     height: 100vh;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 .tentativas {
     font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .title {
@@ -13,10 +16,9 @@ body {
     margin: 0;
 }
 
-.winner {
+#winner-loser {
     position: relative;
     top: 32vh;
-    height: 100px;
 }
 
 .lost {
@@ -36,8 +38,10 @@ body {
 }
 
 .refresh {
-    position: relative;
-    bottom: 25vh;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: green;
     color: white;
     font-size: 30px;
@@ -47,8 +51,7 @@ body {
 }
 
 .game {
-    margin: 20px;
+    margin: 0px;
     font-size: 0px;
     position: relative;
-    top: -25vh;
 }
